@@ -1,0 +1,27 @@
+h1 {
+}
+
+padding: {
+}
+
+Button {
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0);
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+    transition: all 0.2s ease-in-out;
+}
+
+input {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    border-radius: 20px;
+    transition: all 0.2s ease-in-out;
+}

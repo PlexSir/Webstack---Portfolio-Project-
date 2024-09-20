@@ -1,0 +1,243 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url('Quicksand-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    background: linear-gradient(90deg, rgb(20, 131, 235), rgb(184, 112, 19));
+    background-size: 600% 600%;
+    animation: gradientAnimation 15s ease infinite;
+    font-family: 'Quicksand', sans-serif;
+}
+
+input {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    border-radius: 20px;
+}
+
+.Search_Button_Design_1 {
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0);
+    color: #f5f5f5;
+    border: none;
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    border-radius: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.Search_Bar_Design_2 {
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px auto;
+    margin-top: 160px;
+    max-width: 320px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.Container_Design_2 {
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px auto;
+    margin-top: 160px;
+    max-width: 320px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.Button_Design_2 {
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0);
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+    transition: all 0.2s ease-in-out;
+    width: 100%;
+}
+
+.Button_Design_2:hover {
+    background-color: #c800fa;
+    color: #ffffff;
+    transform: translateY(0px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Login_Signup_Container {
+    background-color: rgb(255, 255, 255); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px auto;
+    margin-top: 160px;
+    max-width: 320px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.Login_Signup_Container button {
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0);
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+    font-size: medium;
+    transition: all 0.2s ease-in-out;
+    width: 100%;
+}   
+
+.Login_Signup_Container button:hover {
+    background-color: #c800fa;
+    color: #ffffff;
+    transform: translateY(0px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Login_Signup_Container p {
+    width: 100%; /* adjust the width to your liking */
+    text-align: center; /* center the text within the paragraph */
+    font-size: smaller  ;
+}
+
+.Login_Signup_Container h1 {
+    margin-bottom: 0px; /* adjust the margin to your liking */
+    padding-bottom: 15px;
+}
+
+input[type=Login_Signup] {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ffffff00;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.137);
+    background-color: rgba(218, 241, 234, 0);
+    width: 100%;
+    transition: all 0.2s ease-in-out;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    margin: 0.5px 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.Login_Signup_Submit:hover {
+    background-color: #c800fa;
+    color: #ffffff;
+    transform: translateY(0px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.events-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.event {
+    margin: 20px;
+    width: calc(95% - 80px);
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.event h2 {
+    color: #000000;
+    margin-top: 0;
+}
+
+.event button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.event button:hover {
+    background-color: #3e8e41;
+}
+
+.event button:nth-child(4) {
+    background-color: #f0ad4e;
+}
+
+.event button:nth-child(4):hover {
+    background-color: #ff9900;
+}
+
+.Event-Maker-container {
+    background-color: rgb(255, 255, 255); 
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto;
+    margin-top: 160px;
+    max-width: 8000px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.Event-Maker-container input {
+    width: 99%; /* full-width */
+    padding: 9px; /* add padding */
+    margin-bottom: 20px; /* add margin bottom */
+    border: 1px solid #ccc; /* change border */
+    border-radius: 5px; /* add rounded corners */
+    font-size: 16px; /* change font size */
+    font-family: Arial, sans-serif; /* change font family */
+  }
+
+.Event-Maker-container button {
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0);
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+    transition: all 0.2s ease-in-out;
+}  
+
+.Event-Maker-container button:hover {
+    background-color: #c800fa;
+    color: #ffffff;
+    transform: translateY(0px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Button_Design_1 {
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0);
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+    transition: all 0.2s ease-in-out;
+}
+
+.Button_Design_1:hover {
+    background-color: #c800fa;
+    transform: translateY(-1px);
+}
